@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.full-sheet{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%auto;
+    position: absolute;
+    padding: 15px;
+    width: 350px;
+    margin-top: 50px;
+    left: 50%;
+    right: 50%;
+   transform: translateX(-50%);
+   justify-self: center;
+   align-self: center;
+   border: 2px solid hsl(217, 54%, 11%);
+   box-shadow: 24px 24px 24px 24px rgba(0, 0, 0, 0.5);
+   border-radius: 15px;
+}
+.equilibrum{
+    border: 3px solid hsl(217, 54%, 11%);
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    right: 70%;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.equilibrum > img{
+    width: 300px;
+    height: 50vh;
+}
+.NFT-CARD > h2{
+    color: #ffffff;
+    font-size: 18px;
+}
+.NFT-CARD > p{
+    color: #ffffff;
+    font-size: 18px;
+}
+.eth-clock > h3{
+    color: hsl(178, 100%, 50%);
+}
+.eth-clock > p{
+    color: #ffffff;
+    opacity: 50%;
+}
+.eth-clock{
+    display: flex;
+    justify-content: space-between;
+}
+.line > h3{
+    align-self: center;
+    justify-items: center;
+    right: 50%;
+    left: 50%;
+    color:  #ffffff;
+}
+.card-img > img{
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ffffff;
+    height: 10px;
+}
+.card-img {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+} 
+.avatar{
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    height: 30px;
+}
+    
+    
